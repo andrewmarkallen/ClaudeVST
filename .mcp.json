@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "ableton-unified": {
+      "command": "node",
+      "args": [
+        "/Users/mk/c/ClaudeVST/packages/unified-bridge/dist/index.js"
+      ],
+      "env": {
+        "MODE": "mcp"
+      }
+    },
+    "claudevst-docs": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/mk/c/ClaudeVST/services/document-mcp",
+        "python",
+        "-m",
+        "src.main"
+      ],
+      "env": {
+        "WATCH_FOLDERS": "/Users/mk/c/ClaudeVST/docs,/Users/mk/c/ClaudeVST/agents,/Users/mk/c/ClaudeVST/data/manuals",
+        "LANCEDB_PATH": "/Users/mk/c/ClaudeVST/services/document-mcp/vector_index",
+        "LLM_MODEL": "llama3.2:latest",
+        "CHUNK_SIZE": "1000",
+        "CHUNK_OVERLAP": "200",
+        "EMBEDDING_MODEL": "all-MiniLM-L6-v2",
+        "FILE_EXTENSIONS": ".pdf,.docx,.doc,.txt,.md,.rtf",
+        "MAX_FILE_SIZE_MB": "100",
+        "OLLAMA_BASE_URL": "http://localhost:11434",
+        "BATCH_SIZE": "10",
+        "MAX_INITIAL_FILES": "50"
+      }
+    }
+  }
+}

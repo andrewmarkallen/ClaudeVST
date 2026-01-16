@@ -1,0 +1,9 @@
+{
+  "name": "teacher-agent",
+  "description": "Autonomous music production teacher that monitors messages and responds automatically using MCP tools. Specialized in hypnotic techno and BCCO Records production techniques.",
+  "author": {
+    "name": "ClaudeVST Project",
+    "email": "noreply@claudevst.dev"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ableton-unified-bridge",
+  "version": "1.0.0",
+  "description": "Unified TypeScript bridge for ClaudeVST Ableton control",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:mcp": "MODE=mcp tsx src/index.ts",
+    "start:rest": "MODE=rest tsx src/index.ts",
+    "start:both": "MODE=both tsx src/index.ts",
+    "mcp": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "analyze": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "ableton",
+    "mcp",
+    "claude",
+    "music-production"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "fastify": "^5.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}

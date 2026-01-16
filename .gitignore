@@ -1,0 +1,30 @@
+# Build directories
+build/
+cmake-build-*/
+
+# IDE
+.idea/
+.vscode/
+*.xcodeproj/
+*.xcworkspace/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled
+*.o
+*.a
+*.dylib
+*.so
+*.vst3
+*.component
+
+# Message files (runtime)
+messages/*.json
+.worktrees/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
