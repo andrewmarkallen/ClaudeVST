@@ -1,5 +1,9 @@
 # ClaudeVST — AI Mentor for Techno Producers
 
+## NOTE: SINCE PRODUCER ALREADY COVERS A LARGE PART OF THE ABLETON AUTOMATION ASPECTS, I WILL NOT BE RETURNING TO THIS ASPECT.
+
+## HOWEVER I WILL RETURN TO THIS PROJECT TO IMPLEMENT THE VIDEO TUTORIAL EXTRACTION.
+
 ClaudeVST is an AI music production mentor built into Ableton Live as a VST plugin. The goal is to help an intermediate techno producer level up to professional releases by providing the same kind of guidance a skilled developer gets from an LLM when navigating unfamiliar territory: real answers, specific parameters, genre knowledge, and hands-on control of the DAW.
 
 ---
